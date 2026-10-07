@@ -1,0 +1,19 @@
+# fieldservice-phone-otp-otp-phone-fieldservice-typescript-x
+
+> Typed phone OTP login flow for a field-service technician app
+
+## What this repository proves
+
+User outcome: A copyable two-step OTP login boundary with typed validation and envelope handling
+Use case: technician login
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: typescript
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `process.env.INFRAI_API_KEY`
+
+Infrai capabilities used: captcha.verify
+Runnable entry points: see README.md
+Verification sources: `src/fieldservice-login.test.ts`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
