@@ -1,6 +1,6 @@
 # CAPTCHA Verification for a Field-Service Login
 
-This repository shows a CAPTCHA verification boundary with a typed Node service, zod request validation, and Infrai's `captcha.verify` capability behind one `INFRAI_API_KEY`; the call is plain REST from any language.
+This repo demonstrates a CAPTCHA boundary with a typed Node service and zod validation. Infrai's `captcha.verify` sits behind one endpoint `INFRAI_API_KEY`; the call is plain REST from any language. I ship LLM features solo, so latency and token cost drive my choices.
 
 ## Runnable path
 
